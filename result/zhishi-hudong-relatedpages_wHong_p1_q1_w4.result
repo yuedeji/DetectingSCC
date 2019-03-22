@@ -1,0 +1,100 @@
+bfs time (ms), 4619.176
+trim_1 time (ms), 139.946
+trim_2 time (ms), 3.168
+pivot time (ms), 2112.145
+update time (ms), 901.410
+wcc time (ms), 100.818
+
+Number Of Sccs : 2189119
+Time (ms): 8202.609
+
+bfs time (ms), 4557.688
+trim_1 time (ms), 139.203
+trim_2 time (ms), 3.174
+pivot time (ms), 2102.725
+update time (ms), 888.722
+wcc time (ms), 99.557
+
+Number Of Sccs : 2189119
+Time (ms): 8091.118
+
+bfs time (ms), 4536.377
+trim_1 time (ms), 140.665
+trim_2 time (ms), 3.157
+pivot time (ms), 2100.612
+update time (ms), 885.114
+wcc time (ms), 101.507
+
+Number Of Sccs : 2189119
+Time (ms): 8090.702
+
+bfs time (ms), 4549.259
+trim_1 time (ms), 140.500
+trim_2 time (ms), 3.188
+pivot time (ms), 2111.011
+update time (ms), 889.381
+wcc time (ms), 101.482
+
+Number Of Sccs : 2189119
+Time (ms): 8118.853
+
+bfs time (ms), 4535.032
+trim_1 time (ms), 140.410
+trim_2 time (ms), 3.149
+pivot time (ms), 2096.853
+update time (ms), 885.090
+wcc time (ms), 99.867
+
+Number Of Sccs : 2189119
+Time (ms): 8085.537
+
+bfs time (ms), 4555.631
+trim_1 time (ms), 140.497
+trim_2 time (ms), 3.172
+pivot time (ms), 2108.133
+update time (ms), 887.825
+wcc time (ms), 99.790
+
+Number Of Sccs : 2189119
+Time (ms): 8120.056
+
+bfs time (ms), 4538.006
+trim_1 time (ms), 140.491
+trim_2 time (ms), 3.152
+pivot time (ms), 2103.001
+update time (ms), 886.064
+wcc time (ms), 101.368
+
+Number Of Sccs : 2189119
+Time (ms): 8096.213
+
+bfs time (ms), 4599.473
+trim_1 time (ms), 140.399
+trim_2 time (ms), 3.195
+pivot time (ms), 2110.202
+update time (ms), 890.973
+wcc time (ms), 99.817
+
+Number Of Sccs : 2189119
+Time (ms): 8174.650
+
+bfs time (ms), 4604.289
+trim_1 time (ms), 138.777
+trim_2 time (ms), 3.161
+pivot time (ms), 2113.906
+update time (ms), 900.535
+wcc time (ms), 100.313
+
+Number Of Sccs : 2189119
+Time (ms): 8175.424
+
+bfs time (ms), 4553.505
+trim_1 time (ms), 140.634
+trim_2 time (ms), 3.158
+pivot time (ms), 2106.435
+update time (ms), 887.042
+wcc time (ms), 101.566
+
+Number Of Sccs : 2189119
+Time (ms): 8119.326
+

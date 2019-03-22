@@ -16,6 +16,8 @@ void loadFullGraph(const char * filename, uint32_t * oCSize, uint32_t * oRSize, 
   char tmp[256];
   char tmp_c;
   uint32_t  tmp_i, from, to;
+    
+  printf("filename = %s\n", filename);
 
   // open the file
   filebuf fb;

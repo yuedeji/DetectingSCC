@@ -527,16 +527,22 @@ updateTime+=temp;
     //printf(", %u, %d, %d, %d", iterations, FWD_iterations , BWD_iterations, Trimm_iterations);
 
 #ifdef _DEBUG
-printf(", %f", bTime);
-printf(", %f", trim1Time);
-printf(", %f", trim2Time);
-printf(", %f", pivotTime);
-printf(", %f", updateTime);
-printf(", %f", wccTime);
+printf("bfs time (ms), %.3lf\n", bTime);
+printf("trim_1 time (ms), %.3lf\n", trim1Time);
+printf("trim_2 time (ms), %.3lf\n", trim2Time);
+printf("pivot time (ms), %.3lf\n", pivotTime);
+printf("update time (ms), %.3lf\n", updateTime);
+printf("wcc time (ms), %.3lf\n", wccTime);
+//printf(", %f", bTime);
+//printf(", %f", trim1Time);
+//printf(", %f", trim2Time);
+//printf(", %f", pivotTime);
+//printf(", %f", updateTime);
+//printf(", %f", wccTime);
 #endif
 
     printf("\nNumber Of Sccs : %d", numberOfSccs);
-    printf("\nTime : %f", sccTime );
+    printf("\nTime (ms): %.3lf\n", sccTime );
 
     CUDA_SAFE_CALL( cudaFree( d_Fc ));
     CUDA_SAFE_CALL( cudaFree( d_Fr ));
@@ -955,16 +961,16 @@ updateTime+=temp;
     //printf(", %u, %d, %d, %d", iterations, FWD_iterations , BWD_iterations, Trimm_iterations);
 
 #ifdef _DEBUG
-printf(", %f", bTime);
-printf(", %f", trim1Time);
-printf(", %f", trim2Time);
-printf(", %f", pivotTime);
-printf(", %f", updateTime);
-printf(", %f", wccTime);
+printf("bfs time (ms), %.3lf\n", bTime);
+printf("trim_1 time (ms), %.3lf\n", trim1Time);
+printf("trim_2 time (ms), %.3lf\n", trim2Time);
+printf("pivot time (ms), %.3lf\n", pivotTime);
+printf("update time (ms), %.3lf\n", updateTime);
+printf("wcc time (ms), %.3lf\n", wccTime);
 #endif
 
     printf("\nNumber Of Sccs : %d", numberOfSccs);
-    printf("\nTime : %f", sccTime );
+    printf("\nTime (ms): %f\n", sccTime );
 
 	CUDA_SAFE_CALL( cudaFree( d_Fc ));
 	CUDA_SAFE_CALL( cudaFree( d_Fr ));

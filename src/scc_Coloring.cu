@@ -357,16 +357,22 @@ bTime+=temp;
     //printf(", %u, %d, %d", iterations, FWD_iterations , BWD_iterations);
 
 #ifdef _DEBUG
-printf(", %f", bfsTime);
-printf(", %f", pTime);
-printf(", %f", bTime);
-printf(", %f", trim1Time);
-printf(", %f", pivotTime);
-printf(", %f", updateTime);
+printf("bfs time (ms), %.3lf\n", bfsTime);
+printf("trim_1 time (ms), %.3lf\n", trim1Time);
+printf("pivot time (ms), %.3lf\n", pivotTime);
+printf("update time (ms), %.3lf\n", updateTime);
+printf("p time (ms), %.3lf\n", pTime);
+printf("b time (ms), %.3lf\n", bTime);
+//printf(", %f", bfsTime);
+//printf(", %f", pTime);
+//printf(", %f", bTime);
+//printf(", %f", trim1Time);
+//printf(", %f", pivotTime);
+//printf(", %f", updateTime);
 #endif
 
     printf("\nNumber Of Sccs : %d", numberOfSccs);
-    printf("\nTime : %f", sccTime );
+    printf("\nTime (ms): %.3lf\n", sccTime );
 
     CUDA_SAFE_CALL( cudaFree( d_Fc ));
     CUDA_SAFE_CALL( cudaFree( d_Fr ));
@@ -658,16 +664,22 @@ bTime+=temp;
     //printf(", %u, %d, %d", iterations, FWD_iterations , BWD_iterations);
 
 #ifdef _DEBUG
-printf(", %f", bfsTime);
-printf(", %f", pTime);
-printf(", %f", bTime);
-printf(", %f", trim1Time);
-printf(", %f", pivotTime);
-printf(", %f", updateTime);
+printf("bfs time (ms), %.3lf\n", bfsTime);
+printf("trim_1 time (ms), %.3lf\n", trim1Time);
+printf("pivot time (ms), %.3lf\n", pivotTime);
+printf("update time (ms), %.3lf\n", updateTime);
+printf("p time (ms), %.3lf\n", pTime);
+printf("b time (ms), %.3lf\n", bTime);
+//printf(", %f", bfsTime);
+//printf(", %f", pTime);
+//printf(", %f", bTime);
+//printf(", %f", trim1Time);
+//printf(", %f", pivotTime);
+//printf(", %f", updateTime);
 #endif
 
     printf("\nNumber Of Sccs : %d", numberOfSccs);
-    printf("\nTime : %f", sccTime );
+    printf("\nTime (ms): %.3lf\n", sccTime );
 
 	CUDA_SAFE_CALL( cudaFree( d_Fc ));
 	CUDA_SAFE_CALL( cudaFree( d_Fr ));

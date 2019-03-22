@@ -5,7 +5,7 @@
 #include<fstream>
 #include<stdint.h>
 
-//#define _DEBUG
+#define _DEBUG
 #define BLOCKSIZE 512
 #define MaxXDimOfGrid 65535
 

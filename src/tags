@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Ele	scc_WCC.cu	/^} Ele;$/;"	t	typeref:struct:__anon1	file:
+VecPushBack	scc_WCC.cu	/^__device__ int VecPushBack(Ele &e) {$/;"	f
+assignPartitionRange	scc_kernels.cu	/^__global__ void assignPartitionRange(uint32_t *range, const uint8_t *tags, uint32_t *Pr, const uint32_t num_rows){$/;"	f
+assignUniqueRange	scc_kernels.cu	/^__global__ void assignUniqueRange(uint32_t *range, const uint8_t *tags, const uint32_t num_rows){$/;"	f
+bwd	scc_kernels.cu	/^__global__ void bwd(const uint32_t *Bc, const uint32_t *Br, const uint32_t *range, uint8_t *tags, const uint32_t num_rows, bool volatile *terminate){$/;"	f
+bwdLocal	scc_kernels.cu	/^__global__ void bwdLocal(const uint32_t *Bc, const uint32_t *Br, const uint32_t *range, uint8_t *tags, uint32_t *Pr, const uint32_t num_rows, bool volatile *terminate, bool *auxRange){$/;"	f
+bwdRc	scc_kernels.cu	/^__global__ void bwdRc(const uint32_t *Bc, const uint32_t *Br, const uint32_t *range, uint8_t *tags, uint32_t *Pr, const uint32_t num_rows, bool volatile *terminate){$/;"	f
+colorPropagation	scc_kernels.cu	/^__global__ void colorPropagation(const uint32_t *Fc, const uint32_t *Fr, uint32_t *range, const uint8_t *tags, const uint32_t num_rows, bool volatile *terminate){$/;"	f
+computeInDegree	scc_kernels.cu	/^__global__ void computeInDegree(const uint8_t *tags, const uint32_t num_rows, uint32_t* Pr, const uint32_t *Br, const uint32_t *Bc, bool *Occ, bool volatile *terminate)$/;"	f
+computeOutDegree	scc_kernels.cu	/^__global__ void computeOutDegree(const uint8_t *tags, const uint32_t num_rows, uint32_t* Pr, const uint32_t *Fr, const uint32_t *Fc, bool *Occ, bool volatile *terminate)$/;"	f
+detectSCC	scc_WCC.cu	/^void detectSCC(uint32_t CSize, uint32_t RSize, uint32_t *Fc, uint32_t *Fr, uint32_t * Bc, uint32_t * Br, uint32_t * Pr, bool t1, bool t2){$/;"	f
+devCount	scc_WCC.cu	/^__device__ int devCount = 0;$/;"	v
+devData	scc_WCC.cu	/^__device__ Ele devData[10001];$/;"	v
+fwd	scc_kernels.cu	/^__global__ void fwd(const uint32_t *Fc, const uint32_t *Fr, const uint32_t *range, uint8_t *tags, const uint32_t num_rows, bool volatile *terminate){$/;"	f
+fwdColoring	scc_kernels.cu	/^__global__ void fwdColoring(const uint32_t *Fc, const uint32_t *Fr, const uint32_t *range, uint8_t *tags, const uint32_t num_rows, bool volatile *terminate){$/;"	f
+fwdLocal	scc_kernels.cu	/^__global__ void fwdLocal(const uint32_t *Fc, const uint32_t *Fr, const uint32_t *range, uint8_t *tags, uint32_t *Pr, const uint32_t num_rows, bool volatile *terminate, bool *auxRange){$/;"	f
+fwdRc	scc_kernels.cu	/^__global__ void fwdRc(const uint32_t *Fc, const uint32_t *Fr, const uint32_t *range, uint8_t *tags, uint32_t *Pr, const uint32_t num_rows, bool volatile *terminate){$/;"	f
+getMaxRange	scc_kernels.cu	/^__global__ void getMaxRange(uint32_t *range, uint32_t *Pr, uint32_t *Rm, const uint32_t num_rows, uint8_t *tags, bool volatile *terminate)$/;"	f
+identifyTransEdges	scc_WCC.cu	/^__global__ void identifyTransEdges(const uint32_t *Fc, const uint32_t *Fr, uint32_t *range, const uint8_t *tags, const uint32_t num_rows, uint32_t *Pr, bool *Occ){$/;"	f
+loadFullGraph	MetisInput.cpp	/^void loadFullGraph(const char * filename, uint32_t * oCSize, uint32_t * oRSize, uint32_t ** oFc, uint32_t ** oFr, uint32_t ** oBc, uint32_t ** oBr){$/;"	f
+loadFullGraph	load.cpp	/^void loadFullGraph(const char * filename, uint32_t * oCSize, uint32_t * oRSize, uint32_t ** oFc, uint32_t ** oFr, uint32_t ** oBc, uint32_t ** oBr, uint32_t ** oPr){$/;"	f
+main	MetisInput.cpp	/^int main()$/;"	f
+main	scc.cu	/^int main( int argc, char** argv ){$/;"	f
+mycomp	MetisInput.cpp	/^bool mycomp(pair<int, int> a, pair<int , int> b){$/;"	f
+mycomp	load.cpp	/^bool mycomp(pair<int, int> a, pair<int , int> b){$/;"	f
+pollForFirstPivot	scc_kernels.cu	/^__global__ void pollForFirstPivot(const uint8_t *tags, const uint32_t num_rows, uint32_t* pivot_field, const uint32_t *Fr, const uint32_t *Br){$/;"	f
+pollForPivots	scc_kernels.cu	/^__global__ void pollForPivots(const uint32_t *range, const uint8_t *tags, const uint32_t num_rows, uint32_t* pivot_field, const int max_pivot_count, const uint32_t *Fr, const uint32_t *Br){$/;"	f
+pollForPivotsLocal	scc_kernels.cu	/^__global__ void pollForPivotsLocal(const uint32_t *range, const uint8_t *tags, const uint32_t num_rows, uint32_t** pivot_field, const int max_pivot_count, const uint32_t *Fr, const uint32_t *Br, uint32_t *Pr, bool volatile *terminate, bool *auxRange){$/;"	f
+pollForPivotsLocalNew	scc_kernels.cu	/^__global__ void pollForPivotsLocalNew(const uint32_t *range, const uint8_t *tags, const uint32_t num_rows, uint32_t** pivot_field, const int max_pivot_count, const uint32_t *Fr, const uint32_t *Br, uint32_t *Pr, bool volatile *terminate, bool *auxRange){$/;"	f
+print_help	scc.cu	/^void print_help(){$/;"	f
+propagateRange1	scc_kernels.cu	/^__global__ void propagateRange1(const uint32_t *Fc, const uint32_t *Fr, uint32_t *range, const uint8_t *tags, const uint32_t num_rows, bool volatile *terminate){$/;"	f
+propagateRange2	scc_kernels.cu	/^__global__ void propagateRange2(uint32_t *range, const uint8_t *tags, const uint32_t num_rows, bool volatile *terminate){$/;"	f
+resetTag	scc_kernels.cu	/^__global__ void resetTag(uint32_t *range, uint8_t *tags, const uint32_t num_rows, const int i){$/;"	f
+selectFirstPivot	scc_kernels.cu	/^__global__ void selectFirstPivot(uint8_t *tags, const uint32_t num_rows, const uint32_t *pivot_field){$/;"	f
+selectPivotColoring	scc_kernels.cu	/^__global__ void selectPivotColoring(const uint32_t *range, uint8_t *tags, const uint32_t num_rows){$/;"	f
+selectPivots	scc_kernels.cu	/^__global__ void selectPivots(const uint32_t *range, uint8_t *tags, const uint32_t num_rows, const uint32_t *pivot_field, const int max_pivot_count){$/;"	f
+selectPivotsLocal	scc_kernels.cu	/^__global__ void selectPivotsLocal(const uint32_t *range, uint8_t *tags, const uint32_t num_rows, uint32_t** pivot_field, const int max_pivot_count, uint32_t *Pr, bool *auxRange){$/;"	f
+selectPivotsLocalNew	scc_kernels.cu	/^__global__ void selectPivotsLocalNew(const uint32_t *range, uint8_t *tags, const uint32_t num_rows, uint32_t** pivot_field, const int max_pivot_count, uint32_t *Pr, bool *auxRange){$/;"	f
+shiftRange	scc_kernels.cu	/^__global__ void shiftRange(uint32_t *range, uint32_t *Pr, uint32_t *Rm, const uint32_t num_rows, uint8_t *tags)$/;"	f
+trim1	scc_kernels.cu	/^__global__ void trim1(const uint32_t *range, uint8_t *tags, const uint32_t *Fc, const uint32_t *Fr, const uint32_t *Bc, const uint32_t *Br, const uint32_t num_rows, bool volatile *terminate){$/;"	f
+trim2	scc_kernels.cu	/^__global__ void trim2(const uint32_t *range, uint8_t *tags, const uint32_t *Fc, const uint32_t *Fr, const uint32_t *Bc, const uint32_t *Br, const uint32_t num_rows){$/;"	f
+u1	scc_WCC.cu	/^    uint32_t u1, u2;$/;"	m	struct:__anon1	file:
+u2	scc_WCC.cu	/^    uint32_t u1, u2;$/;"	m	struct:__anon1	file:
+update	scc_kernels.cu	/^__global__ void update(uint32_t *range, uint8_t *tags, const uint32_t num_rows, bool volatile *terminate){$/;"	f
+updateColoring	scc_kernels.cu	/^__global__ void updateColoring(uint8_t *tags, const uint32_t num_rows, bool volatile *terminate){$/;"	f
+updateLocal	scc_kernels.cu	/^__global__ void updateLocal(uint32_t *range, uint8_t *tags, const uint32_t num_rows, bool volatile *terminate, bool *auxRange){$/;"	f
+updatePr	scc_kernels.cu	/^__global__ void updatePr(uint32_t *Pr, const uint32_t num_rows, bool volatile *terminate, uint8_t *tags)$/;"	f
+vHong	scc_WCC.cu	/^void vHong(uint32_t CSize, uint32_t RSize, uint32_t *Fc, uint32_t *Fr, uint32_t * Bc, uint32_t * Br, bool t1, bool t2){$/;"	f
+vSlota	scc_Coloring.cu	/^void vSlota(uint32_t CSize, uint32_t RSize, uint32_t *Fc, uint32_t *Fr, uint32_t * Bc, uint32_t * Br, bool t1, bool t2){$/;"	f
+wHong	scc_WCC.cu	/^void wHong(uint32_t CSize, uint32_t RSize, uint32_t *Fc, uint32_t *Fr, uint32_t * Bc, uint32_t * Br, bool t1, bool t2, int warpSize){$/;"	f
+wSlota	scc_Coloring.cu	/^void wSlota(uint32_t CSize, uint32_t RSize, uint32_t *Fc, uint32_t *Fr, uint32_t * Bc, uint32_t * Br, bool t1, bool t2, int warpSize){$/;"	f

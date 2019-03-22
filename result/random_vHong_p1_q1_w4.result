@@ -1,0 +1,110 @@
+numberOf1Sccs: 0
+bfs time (ms), 572.024
+trim_1 time (ms), 8.395
+trim_2 time (ms), 0.136
+pivot time (ms), 1.425
+update time (ms), 0.235
+wcc time (ms), 0.446
+
+Number Of Sccs : 1
+Time (ms): 985.326111
+
+numberOf1Sccs: 0
+bfs time (ms), 569.482
+trim_1 time (ms), 8.389
+trim_2 time (ms), 0.137
+pivot time (ms), 1.379
+update time (ms), 0.203
+wcc time (ms), 0.437
+
+Number Of Sccs : 1
+Time (ms): 982.211731
+
+numberOf1Sccs: 0
+bfs time (ms), 570.907
+trim_1 time (ms), 8.562
+trim_2 time (ms), 0.136
+pivot time (ms), 1.467
+update time (ms), 0.201
+wcc time (ms), 0.431
+
+Number Of Sccs : 1
+Time (ms): 984.100830
+
+numberOf1Sccs: 0
+bfs time (ms), 570.433
+trim_1 time (ms), 8.349
+trim_2 time (ms), 0.136
+pivot time (ms), 1.428
+update time (ms), 0.200
+wcc time (ms), 0.447
+
+Number Of Sccs : 1
+Time (ms): 961.742004
+
+numberOf1Sccs: 0
+bfs time (ms), 570.172
+trim_1 time (ms), 8.400
+trim_2 time (ms), 0.135
+pivot time (ms), 1.435
+update time (ms), 0.205
+wcc time (ms), 0.438
+
+Number Of Sccs : 1
+Time (ms): 983.290283
+
+numberOf1Sccs: 0
+bfs time (ms), 570.797
+trim_1 time (ms), 8.400
+trim_2 time (ms), 0.135
+pivot time (ms), 1.447
+update time (ms), 0.201
+wcc time (ms), 0.433
+
+Number Of Sccs : 1
+Time (ms): 983.362366
+
+numberOf1Sccs: 0
+bfs time (ms), 571.180
+trim_1 time (ms), 8.397
+trim_2 time (ms), 0.135
+pivot time (ms), 1.322
+update time (ms), 0.202
+wcc time (ms), 0.430
+
+Number Of Sccs : 1
+Time (ms): 983.884644
+
+numberOf1Sccs: 0
+bfs time (ms), 570.079
+trim_1 time (ms), 8.406
+trim_2 time (ms), 0.137
+pivot time (ms), 1.416
+update time (ms), 0.201
+wcc time (ms), 0.442
+
+Number Of Sccs : 1
+Time (ms): 982.659058
+
+numberOf1Sccs: 0
+bfs time (ms), 568.888
+trim_1 time (ms), 8.415
+trim_2 time (ms), 0.136
+pivot time (ms), 1.350
+update time (ms), 0.203
+wcc time (ms), 0.444
+
+Number Of Sccs : 1
+Time (ms): 981.463257
+
+numberOf1Sccs: 0
+bfs time (ms), 570.706
+trim_1 time (ms), 8.355
+trim_2 time (ms), 0.136
+pivot time (ms), 1.415
+update time (ms), 0.214
+wcc time (ms), 0.449
+
+Number Of Sccs : 1
+Time (ms): 1021.521362
+

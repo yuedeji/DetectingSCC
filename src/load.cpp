@@ -115,7 +115,7 @@ void loadFullGraph(const char * filename, uint32_t * oCSize, uint32_t * oRSize, 
   uint32_t * Pr = new uint32_t[RSize];
 
   filebuf fbm;
-  fbm.open("//home//subbu//Desktop//PpP//src//MeTiSInput128.graph.part.10",ios::in);
+  fbm.open(filename,ios::in);
   if (!fbm.is_open() )
   {
      printf("Error Reading metis graph file\n");

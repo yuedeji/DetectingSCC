@@ -1,0 +1,110 @@
+numberOf1Sccs: 323798
+bfs time (ms), 44.500
+trim_1 time (ms), 15.411
+trim_2 time (ms), 0.369
+pivot time (ms), 0.674
+update time (ms), 0.100
+wcc time (ms), 0.627
+
+Number Of Sccs : 325892
+Time (ms): 112.265854
+
+numberOf1Sccs: 323798
+bfs time (ms), 46.599
+trim_1 time (ms), 15.587
+trim_2 time (ms), 0.375
+pivot time (ms), 0.644
+update time (ms), 0.102
+wcc time (ms), 0.663
+
+Number Of Sccs : 325892
+Time (ms): 132.848389
+
+numberOf1Sccs: 323798
+bfs time (ms), 46.943
+trim_1 time (ms), 15.674
+trim_2 time (ms), 0.375
+pivot time (ms), 0.676
+update time (ms), 0.103
+wcc time (ms), 0.675
+
+Number Of Sccs : 325892
+Time (ms): 125.932640
+
+numberOf1Sccs: 323798
+bfs time (ms), 49.135
+trim_1 time (ms), 15.437
+trim_2 time (ms), 0.375
+pivot time (ms), 0.656
+update time (ms), 0.099
+wcc time (ms), 0.637
+
+Number Of Sccs : 325892
+Time (ms): 116.563683
+
+numberOf1Sccs: 323798
+bfs time (ms), 49.191
+trim_1 time (ms), 15.642
+trim_2 time (ms), 0.377
+pivot time (ms), 0.691
+update time (ms), 0.103
+wcc time (ms), 0.665
+
+Number Of Sccs : 325892
+Time (ms): 138.220413
+
+numberOf1Sccs: 323798
+bfs time (ms), 45.329
+trim_1 time (ms), 15.617
+trim_2 time (ms), 0.378
+pivot time (ms), 0.673
+update time (ms), 0.103
+wcc time (ms), 0.666
+
+Number Of Sccs : 325892
+Time (ms): 134.622116
+
+numberOf1Sccs: 323798
+bfs time (ms), 46.822
+trim_1 time (ms), 15.613
+trim_2 time (ms), 0.373
+pivot time (ms), 0.639
+update time (ms), 0.103
+wcc time (ms), 0.667
+
+Number Of Sccs : 325892
+Time (ms): 135.897629
+
+numberOf1Sccs: 323798
+bfs time (ms), 47.367
+trim_1 time (ms), 15.664
+trim_2 time (ms), 0.377
+pivot time (ms), 0.671
+update time (ms), 0.102
+wcc time (ms), 0.665
+
+Number Of Sccs : 325892
+Time (ms): 136.637756
+
+numberOf1Sccs: 323798
+bfs time (ms), 46.706
+trim_1 time (ms), 15.593
+trim_2 time (ms), 0.378
+pivot time (ms), 0.636
+update time (ms), 0.102
+wcc time (ms), 0.650
+
+Number Of Sccs : 325892
+Time (ms): 128.873825
+
+numberOf1Sccs: 323798
+bfs time (ms), 46.543
+trim_1 time (ms), 15.671
+trim_2 time (ms), 0.374
+pivot time (ms), 0.652
+update time (ms), 0.103
+wcc time (ms), 0.665
+
+Number Of Sccs : 325892
+Time (ms): 140.080902
+

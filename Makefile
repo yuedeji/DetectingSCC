@@ -1,6 +1,6 @@
 
 ifndef GPU_ARCH
-GPU_ARCH=sm_35
+GPU_ARCH=sm_30
 endif
 
 ifndef NVCC_PATH

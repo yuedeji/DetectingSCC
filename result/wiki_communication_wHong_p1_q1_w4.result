@@ -1,0 +1,90 @@
+bfs time (ms), 36.482
+trim_1 time (ms), 2.738
+trim_2 time (ms), 0.138
+pivot time (ms), 0.548
+update time (ms), 0.116
+wcc time (ms), 0.720
+
+Number Of Sccs : 2281879
+Time (ms): 73.964
+
+bfs time (ms), 32.263
+trim_1 time (ms), 2.731
+trim_2 time (ms), 0.136
+pivot time (ms), 0.550
+update time (ms), 0.117
+wcc time (ms), 0.723
+
+Number Of Sccs : 2281879
+Time (ms): 70.133
+
+bfs time (ms), 36.478
+trim_1 time (ms), 2.736
+trim_2 time (ms), 0.135
+pivot time (ms), 0.538
+update time (ms), 0.116
+wcc time (ms), 0.699
+
+Number Of Sccs : 2281879
+Time (ms): 72.333
+
+bfs time (ms), 34.602
+trim_1 time (ms), 2.721
+trim_2 time (ms), 0.135
+pivot time (ms), 0.560
+update time (ms), 0.114
+wcc time (ms), 0.707
+
+Number Of Sccs : 2281879
+Time (ms): 63.616
+
+bfs time (ms), 32.288
+trim_1 time (ms), 2.744
+trim_2 time (ms), 0.134
+pivot time (ms), 0.544
+update time (ms), 0.115
+wcc time (ms), 0.691
+
+Number Of Sccs : 2281879
+Time (ms): 67.934
+
+bfs time (ms), 32.086
+trim_1 time (ms), 2.707
+trim_2 time (ms), 0.133
+pivot time (ms), 0.555
+update time (ms), 0.114
+wcc time (ms), 0.687
+
+Number Of Sccs : 2281879
+Time (ms): 62.907
+
+bfs time (ms), 37.726
+trim_1 time (ms), 2.713
+trim_2 time (ms), 0.134
+pivot time (ms), 0.541
+update time (ms), 0.112
+wcc time (ms), 0.704
+
+Number Of Sccs : 2281879
+Time (ms): 69.347
+
+bfs time (ms), 32.296
+trim_1 time (ms), 2.713
+trim_2 time (ms), 0.135
+pivot time (ms), 0.553
+update time (ms), 0.115
+wcc time (ms), 0.676
+
+Number Of Sccs : 2281879
+Time (ms): 61.591
+
+bfs time (ms), 35.100
+trim_1 time (ms), 2.731
+trim_2 time (ms), 0.135
+pivot time (ms), 0.552
+update time (ms), 0.117
+wcc time (ms), 0.712
+
+Number Of Sccs : 2281879
+Time (ms): 64.330
+
